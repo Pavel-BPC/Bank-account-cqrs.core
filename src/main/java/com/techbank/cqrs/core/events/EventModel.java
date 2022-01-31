@@ -9,7 +9,7 @@ import java.util.Date;
 
 @Data
 @Builder
-@Document(collation = "evenStore")
+@Document("evenStore")
 public class EventModel {
     @Id
     private String id;
